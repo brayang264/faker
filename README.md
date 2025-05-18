@@ -3,6 +3,7 @@
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=brayang264_faker&metric=bugs)](https://sonarcloud.io/summary/new_code?id=brayang264_faker)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=brayang264_faker&metric=coverage)](https://sonarcloud.io/summary/new_code?id=brayang264_faker)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=brayang264_faker&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=brayang264_faker)
+[![Coverage Status](https://coveralls.io/repos/github/brayang264/faker/badge.svg?branch=main)](https://coveralls.io/github/brayang264/faker?branch=main)
 Implementation of a Simple App with the next operations:
 * Get random nations.
 * Get random currencies.
