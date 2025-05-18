@@ -19,6 +19,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
+          distribution: 'temurin'
           java-version: '17'
 
       - name: Cache Maven packages
@@ -36,7 +37,6 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           path-to-lcov: target/site/jacoco/jacoco.xml
-          coveralls-endpoint: https://coveralls.io
 
 
   #Sonar's Job
