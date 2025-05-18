@@ -126,4 +126,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Deploy on Render
-        run: curl -X ${{secrets.DEPLOY_HOOK}}
+        run: curl -X https://api.render.com/deploy/srv-d0klbqjuibrs739kjnug?key=F-yTKAmVVaY
