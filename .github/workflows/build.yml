@@ -108,7 +108,7 @@ jobs:
           #Set artifact name
           name: artifact
           #From this path
-          path: target/faker-0.0.1-SNAPSHOT.jar
+          path: target/faker.jar
 
 
       - name: Build & push Docker image
