@@ -34,7 +34,7 @@ jobs:
       - name: Run Tests
         run: mvn -B test
 
-        
+
   #Sonar's Job
   sonar:
     #Depends on test's job
@@ -54,7 +54,7 @@ jobs:
       #Set up SonarCloud cache
       - name: Cache SonarCloud packages
         #This action allows caching dependencies and build outputs to improve workflow execution time.
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         with:
           path: ~/.sonar/cache
           key: ${{ runner.os }}-sonar
