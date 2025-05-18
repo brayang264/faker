@@ -78,7 +78,7 @@
 				</executions>
 			</plugin>
 		</plugins>
-		<finalName>gitlab</finalName>
+		<finalName>faker</finalName>
 	</build>
 
 </project>
